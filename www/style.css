@@ -1,0 +1,40 @@
+#wrapperHeader {
+    width: 100%;
+    height: auto;
+    /* height of the background image? */
+    background: url('https://images.unsplash.com/photo-1519568262558-dc4b87dd85ca?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6fc918912c2706c79188bd73cbcdd12b&auto=format&fit=crop&w=2851&q=80') repeat-x center center fixed;
+    display: flex;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: space-around;
+    vertical-align: middle;
+
+    @media (max-width: 700px) {
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+}
+
+h2 {
+    line-height: 112px;
+    cursor: pointer;
+
+    @media (max-width: 700px) {
+        text-align: center;
+
+    }
+}
+
+h3 {
+    color: rgb(201, 60, 77);
+
+    @media (max-width: 700px) {
+        margin-top: 0;
+        text-align: center;
+    }
+}
