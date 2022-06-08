@@ -1,17 +1,14 @@
 const dinosaurlistElement = document.querySelector('#dinosaurlist');
 
 async function getDino() {
-    console.log("get dino");
     const payload = await fetch('/api/dinos', {
-        method: 'GET'    });
-    // const response = await fetch('/api/Get');
-    // const payload = await response.json();
+        method: 'GET'
+    });
     const data = await payload.json();
-    console.log(data);
 
-    if (payload.data.dinos) {
+    if (data) {
         document.querySelector("#empty").remove();
-        for (const dino of payload.response.dinos) {
+        for (const dino of data) {
             dinosaurlistElement.appendChild(generateDino(dino))
         }
     }
@@ -29,9 +26,6 @@ function generateDino(dino) {
     `;
     const range = document.createRange();
     const fragment = range.createContextualFragment(tmpl);
-
-    fragment.querySelector('input').addEventListener('change', updateTask);
-    
     return fragment;
 }
 

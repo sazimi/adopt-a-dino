@@ -529,7 +529,7 @@ const dinos = [
   ];
 
   const getDinos = () => {
-    return data.products;
+    return data.dinos;
   };
   
   module.exports = { getDinos };
