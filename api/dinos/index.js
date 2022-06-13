@@ -64,7 +64,7 @@ const dinoArray = [
     characteristic: [
       {
         label: "Spayed / Neutered",
-        value: false
+        value: true
       },
       {
         label: "Shots Up to Date",
@@ -76,11 +76,11 @@ const dinoArray = [
       },
       {
         label: "House-trained",
-        value: true
+        value: false
       },
       {
         label: "Good with Humans",
-        value: false
+        value: true
       },
       {
         label: "Good with Kids",
@@ -102,13 +102,13 @@ const dinoArray = [
     info: "Dracorex hogwartsia was a pachycephalosaur that did not have a domed head. Instead, its skull was adorned with spikes and frills reminiscent of a dragon. A skull was discovered in the Hell Creek Formation in South Dakota and donated to the Children's Museum of Indianapolis in 2004. Its name was inspired by J.K. Rowling's Harry Potter series and the young visitors to the children's museum.",
     img: "https://lh3.googleusercontent.com/vMkqk5Fl2hZwePtNzK0MuGmUDfc2pX9erzQPxKpRvggLRWGliipzhi2s5VdbO_JCF6zNDs49moOXUrBI2aqkbDrtFwy0-hB2cdb9Vb5IXrqZkoTxJxOkmCvpxI5fbgQkxKghDFEGF50f9TsdC31iG7eltJ1qJvDf8RfneJ7eQDjL2xNAMvY54vPUT1l7X67pGtCysO4ryNhaMY72XfYw2qGnbmaR0Y2b6s5A4ktCrtSspXlteuzaayzXmqJ3vTcZrAd3RN_kV2LzbdGdEX8aidOKt-oHAE4XNoPfczXVxvZTpvXHjtl3iu70wbhdxHIbE51hKSfQAbUBWo0q1Z_xW4eh4d2lFtAICVZU3HxaHHX6t91BpfJCtZ72alLJjFWh6Fft3cZOwyX9szoI9CbMuBaxIbODKrGsjV_faCDDBplRvHTgYaKX_qYrUVWoEedlE8Nr5MRXP_sCuZry1s0jiVG0bulCO0Lgf2vl428Mi9gT5HVmYvJsGNvlM_zMzy1UPcnbGOrhbpL6Hi6fBApsd_9mqcmwLdy1MhR2rZ5Eulx21Rnu_QTt_fRAqhUk601tLGtyApftDuX4myKuppnDS7e8cbRfU2rOR9I9kvcJymmfnzRQDMCKrK6eylmuXPu-Ow7IswLqm9Fzo2LoouiBtxTd9nJ0phc48KfF4qYy8qkJ0N24GeJpEvwRFg=w800-h596-no",
     habits: {
-      likes: ['Hug', 'Another Dino', 'Wooden Bed', 'Green Leaves'],
+      likes: ['Hug', 'Another Dino', 'Wooden Bed'],
       dislikes: ['Premium Bed', 'Hug', 'Palm leaves', 'Walk']
     },
     characteristic: [
       {
         label: "Spayed / Neutered",
-        value: false
+        value: true
       },
       {
         label: "Shots Up to Date",
@@ -128,7 +128,7 @@ const dinoArray = [
       },
       {
         label: "Good with Kids",
-        value: false
+        value: true
       }
     ]
   },
@@ -278,17 +278,17 @@ const dinoArray = [
     info: "Minmi was a small, anklyosaurian, armored dinosaur discovered in Australia.",
     img: "https://lh3.googleusercontent.com/gDkGPiMf49g87h-HWwVTFwh_gtIrQhncbE7149xBsitZmuyJGRzDxYreCH1Hxz61kCai0GV9XPS_Oz3zsbF3gb3yzFAFRXnA8tFiecAS7OAnMQakY10l1CKRJCGg-ZaVWFwnsrtfjYBE2dFzqYngeUHa1Ro6nwOEZj-ShGkEjmyP3Ag6JFGxRmQBTWis6ALNwfje5mGbsYDwgwapqXrtuYC5xhT-jbKQ-s-QkV37nn3o3osTiqBHyn58uFHQmAsvScYg6f6bvxMWwtX0jCZErhk2eMIlAGsoTU9hUMkUNWNnNNG39KYMZKQ3yYMjdyhfLDnGq82wFuz4LYyO5cgbi1q0z78WIOfGOFjw-TegzxEoJ6pVBxpbSaJsUIpWDlFISr1HZNTvcHKy_rTHNDkDvx10cqC26ojeeRa6dTCBBCKgtP8qIacAxUYwN1z4zJSA8B7WrAyuPblViON-b4XmU3RKbeSfuc2aKlN1Q67Xqf0qgNZ459s8mBqdJo9bFSz55DqOlxNkoMA-gNtNAr1hYixcvMmuBWaqek6u9pEoy08Ew42ZR7zDcyCVkj3nKEjFOKJIf8K2M5LZcyU1_7Ke5FNh4CerFaE_YhILNCe-HxUj0HdD7InMb8mbYE4AES1UDsYcZnLlUBR9khiaXhhhdjVAxtiiWx0Joy3zbkSHoI7Uhfp2bXY-Gs3-ww=w1500-h1120-no",
     habits: {
-      likes: ['Hug', 'Palm leaves', 'Dance', 'Water'],
+      likes: ['Hug', 'Dance', 'Water'],
       dislikes: ['Bananas', 'Hug', 'Calamari', 'Wooden Bed']
     },
     characteristic: [
       {
         label: "Spayed / Neutered",
-        value: false
+        value: true
       },
       {
         label: "Shots Up to Date",
-        value: true
+        value: false
       },
       {
         label: "Health Certificate",
@@ -304,7 +304,7 @@ const dinoArray = [
       },
       {
         label: "Good with Kids",
-        value: false
+        value: true
       }
     ]
   },
@@ -372,7 +372,7 @@ const dinoArray = [
     characteristic: [
       {
         label: "Spayed / Neutered",
-        value: false
+        value: true
       },
       {
         label: "Shots Up to Date",
@@ -424,7 +424,7 @@ const dinoArray = [
       },
       {
         label: "Health Certificate",
-        value: false
+        value: true
       },
       {
         label: "House-trained",
@@ -432,51 +432,7 @@ const dinoArray = [
       },
       {
         label: "Good with Humans",
-        value: false
-      },
-      {
-        label: "Good with Kids",
-        value: false
-      }
-    ]
-  },
-  {
-    id: 11,
-    name: "Xenoceratops",
-    nickname: "Xena",
-    pronunciation: "ZEE-no-SEH-ruh-tops",
-    meaningOfName: "alien horned face",
-    diet: "herbivorous",
-    favouriteFood: "Aliens",
-    size: 6,
-    period: "Early Cretaceous",
-    mya: "78.5-77.5",
-    info: "Xenoceratops had horns and a bony frill with elborate ornamentation of projections, knobs, and spikes.",
-    img: "https://lh3.googleusercontent.com/K6Utg1DHt6Hi4Tv85QSPKa4_FTqbd6M6VXMUIuxJBwcc7g2ZFnWVaeyYmguD0by56SdNwBdPWL_i5qRVN3KbjBM7NUK7npQEhSDyLpdsBCWpTpoi5KXlurSkOqrp8xPng0hcJ6RC3HQd7AU11PlZ9BS19DeT30_e_jTxsjvgxqBYc1riURE8O0WE0fPf7dOGMH5y_VhpJ1YNFQBjZBrUkH8yesG4JBkWH4ehQLbmPqwWkziYuFUEl7fQoNFWOO2-HJRCK2BJkhoPSra3MrxU8-guDBO_KX0_ov24fBkOpethZcTFl7x5btdWnY4FqQkPnmp8cweNpT9I-iJKSuJ8b68Z_uxD0FKBZS3UPlprv5t6SLxLLqyOGp1GX_KiVf3t2w28wny-88bqNSvaxFViLVKsnCZN-_TABnyxBaVGVSvMJ-r_jyA3iISyVxVYqiCaoydV99Hf9S0NXUmVL9VRsMa_WNwlgJdoqtG7HmmuckWgfo_JWBF3d0JmEYkAgG5E_Gi0ueSZLTvm9_urkEN0AYQqDdFVnXJ3nfz8_3oKr0wac0MRbAqPJwHKSlk72FQPPAxGheP2-LZFwNd-juJ2ET5i9Bn1dXahlsEdChPYN0y9EvH26VfXE4_vfqgWUYfrpHhe7dI6JRAzR03dFhFfX6wuntyxojdphO7_HtUpsPxUgAK9WAz-it-nVA=w496-h369-no",
-    habits: {
-      likes: ['Water', 'Dance'],
-      dislikes: ['Another Dino', 'Hug']
-    },
-    characteristic: [
-      {
-        label: "Spayed / Neutered",
-        value: false
-      },
-      {
-        label: "Shots Up to Date",
         value: true
-      },
-      {
-        label: "Health Certificate",
-        value: false
-      },
-      {
-        label: "House-trained",
-        value: true
-      },
-      {
-        label: "Good with Humans",
-        value: false
       },
       {
         label: "Good with Kids",
@@ -498,13 +454,13 @@ const dinoArray = [
     info: "An ornithopod dinosaur known only by a partial skull and postcranial fragments, not much about Zephyrosaurus has been discovered.",
     img: "https://lh3.googleusercontent.com/SkDtBdBs2ogw2acCIyf7c4GzuEbxfq1lDimGnFGXZsqPq4cN7__l0MZtC0WI4x1xmQMeYNexc2dbqNhjTHJWVXs7IyDWvQiZ6FSsHiTfQn8fXAaHG1ozWk6n562AH9olLqjf07ZoXCs_AOfL0oEhPkkDqydQmU5biXxhQsIE1W51axDbYWK1YCNPehhunwniFG3QyTjbQve75kpcwM5OoRpwzfGdrEDk8bTY4dP8NmoxFqGrqIRCii5cY0fnZMYfk9McobgSLEgWIkpwPjwOwFpGu_EiEOTHLz8tkIdqWAarANcqzVLEnszDkdy9WRqYnGFU_P0m_71OkMwtiPiMQTZXmfB9a49WXYgeyuYXPgzl2VZD1eqZrwvhiI7D9g3XOc--2gAGqZ0Qglqg1TAakwZDViw9UxOC5Z4RC5d_OpG7pIsgraDC_yOodDs6jDm2nGh-5PPCLqS7B032UxXPyUs1b17bXpaHWXtrVBGxsVCZiJ-eBntsQwRaVOGKzczIYTDQ_zhZqj2C2c00R1qfCIBDtufk0gbJ1Ly-RunIjTRFXX1DdJDfMQ9vs0p1x0EZFGoLcf-nAZ31M4fk_OT6RrhX2JsRTe5CT2tnPIw7w9sC7DH_xBlCDTYBP5S6CQAAWMm5X1JDUmVHasFYlMLW177NlVsf7KL2qhk_iQRqywbt1e3fl2gpVkKetw=w1280-h925-no",
     habits: {
-      likes: ['Sea Water','Water', 'Dance', 'Bananas'],
+      likes: ['Sea Water', 'Water', 'Dance', 'Bananas'],
       dislikes: ['Another Dino', 'Hug', 'Calamari']
     },
     characteristic: [
       {
         label: "Spayed / Neutered",
-        value: false
+        value: true
       },
       {
         label: "Shots Up to Date",
@@ -512,7 +468,7 @@ const dinoArray = [
       },
       {
         label: "Health Certificate",
-        value: false
+        value: true
       },
       {
         label: "House-trained",
@@ -532,9 +488,9 @@ const dinoArray = [
 
 
 module.exports = async function (context, req) {
-    try {
-       context.res.status(200).json(dinoArray);
-    } catch (error) {
-      context.res.status(500).send(error);
-    }
-  };
+  try {
+    context.res.status(200).json(dinoArray);
+  } catch (error) {
+    context.res.status(500).send(error);
+  }
+};

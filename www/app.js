@@ -17,14 +17,15 @@ async function getDino() {
 function dinoFact(item) {
     console.log(item);
     const val = item.value ? '✅' : '❌';
-    return [item.label, val].join(" : ");
+    const key = '<span role="presentation" class="strong">'+ item.label +': </span>';
+    return [key, val].join(" : ");
 }
 
 function generateDino(dino) {
     const tmpl = `
     <div class="dinosaurs__item" id="container">
-        <div role="img" class="dinosaurs__item-img" id="${dino.id}" aria-label="Image of ${dino.nickname}" aria-describedby='dino-img'>
-            <img id="dino-img" src="${dino.img}" alt="${dino.nickname} posing for camera">
+        <div role="img" class="dinosaurs__item-${dino.id}" id="${dino.id}" aria-label="Image of ${dino.nickname}" aria-describedby='dino-img'>
+            <img id="dino-img-${dino.id}" src="${dino.img}" alt="${dino.nickname} posing for camera">
         </div>
         <div class="dinosaurs__item-info">
             <span role="presentation" class="strong">Name: </span>${dino.nickname} <br>
@@ -37,7 +38,7 @@ function generateDino(dino) {
             <ul role="list">
                 <li role="listitem"> <span role="presentation" class="strong">Likes:</span>  ${dino.habits.likes.map((i) => `${i}`)}</li>
                 <li role="listitem"> <span role="presentation" class="strong">Dislikes:</span> ${dino.habits.dislikes.map((i) => `${i}`)}</li>
-                ${dino.characteristic.map(i => `<li role="listitem">${dinoFact(i)} </li>`)}<br>
+                ${dino.characteristic.map(i => `<li role="listitem">${dinoFact(i)} </li>`).join("")}
             </ul>          
             
 

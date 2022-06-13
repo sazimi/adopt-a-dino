@@ -87,7 +87,7 @@ h1 {
 
 .dinosaurs__item {
     width: 400px;
-    height: 675px;
+    height: 550px;
     border: solid 1px #004341;
     border-radius: 5px;
     justify-content: center;
@@ -102,6 +102,7 @@ h1 {
 .dinosaurs__item img {
     max-width: 100%;
     max-height: 150px;
+    min-height: 150px;
     margin: auto;
 }
 
@@ -122,5 +123,5 @@ h1 {
 }
 
 .strong {
-    font-weight: 800;
+    font-weight: 600;
 }
