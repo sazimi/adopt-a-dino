@@ -16,15 +16,15 @@ async function getDino() {
 
 function dinoFact(item) {
     const val = item.value ? '✅' : '❌';
-    const key = '<span role="presentation" class="strong">'+ item.label +': </span>';
-    return [key, val].join(" : ");
+    const key = '<span role="presentation">'+ item.label +'</span>';
+    return [val, key].join(" ");
 }
 
 function generateDino(dino) {
     const tmpl = `
     <div class="dinosaurs__item" id="container" role="presentation">
         <div role="presentation" class="dinosaurs__item-${dino.id}" id="${dino.id}" aria-label="Image of ${dino.nickname}">
-            <img role="img" id="dino-img-${dino.id}" src="${dino.img}" alt="${dino.nickname} posing for camera">
+            <img role="img" id="dino-img-${dino.id}" src="${dino.img}" alt="Image of ${dino.nickname}" title="Image of ${dino.nickname}">
         </div>
         <div class="dinosaurs__item-info">
             <span role="presentation" class="strong">Name: </span>${dino.nickname} <br>
