@@ -44,10 +44,9 @@ h4 {
  #wrapperHeader {
     width: 100%;
     height: auto;
+    background-color: #004341;
     /* height of the background image? */
-    /* background: url('https://images.unsplash.com/photo-1519568262558-dc4b87dd85ca?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6fc918912c2706c79188bd73cbcdd12b&auto=format&fit=crop&w=2851&q=80') repeat-x center center fixed; */
-    background: url('https://images.unsplash.com/photo-1560851691-ebb64b584d3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2099&q=80');
-    display: flex;
+     display: flex;
  } 
 
 .header {
@@ -68,7 +67,8 @@ h4 {
 h1 {
     line-height: 112px;
     cursor: pointer;
-
+    /* color: #5d8686; */
+    color: #fff;
     @media (max-width: 700px) {
         text-align: center;
 
@@ -115,6 +115,7 @@ h1 {
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     z-index: 2;
+    max-height: 400px;
     color: white;
 }
 

@@ -15,7 +15,6 @@ async function getDino() {
 }
 
 function dinoFact(item) {
-    console.log(item);
     const val = item.value ? '✅' : '❌';
     const key = '<span role="presentation" class="strong">'+ item.label +': </span>';
     return [key, val].join(" : ");
@@ -23,9 +22,9 @@ function dinoFact(item) {
 
 function generateDino(dino) {
     const tmpl = `
-    <div class="dinosaurs__item" id="container">
-        <div role="img" class="dinosaurs__item-${dino.id}" id="${dino.id}" aria-label="Image of ${dino.nickname}" aria-describedby='dino-img'>
-            <img id="dino-img-${dino.id}" src="${dino.img}" alt="${dino.nickname} posing for camera">
+    <div class="dinosaurs__item" id="container" role="presentation">
+        <div role="presentation" class="dinosaurs__item-${dino.id}" id="${dino.id}" aria-label="Image of ${dino.nickname}">
+            <img role="img" id="dino-img-${dino.id}" src="${dino.img}" alt="${dino.nickname} posing for camera">
         </div>
         <div class="dinosaurs__item-info">
             <span role="presentation" class="strong">Name: </span>${dino.nickname} <br>
@@ -50,7 +49,5 @@ function generateDino(dino) {
     const fragment = range.createContextualFragment(tmpl);
     return fragment;
 }
-
-
 
 getDino();
