@@ -38,6 +38,11 @@ jobs:
           # Provide either site-dir or url
           # site-dir: ${{ github.workspace }}/path-to-built-website
           url: https://brave-pebble-06c346c03.1.azurestaticapps.net/
+      - name: Upload report artifact
+        uses: actions/upload-artifact@v1.0.0
+        with:
+          name: accessibility-reports
+          path: ${{ github.workspace }}/_accessibility-reports
            
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
