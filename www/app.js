@@ -14,19 +14,42 @@ async function getDino() {
     }
 }
 
+function dinoFact(item) {
+    console.log(item);
+    const val = item.value ? '✅' : '❌';
+    return [item.label, val].join(" : ");
+}
+
 function generateDino(dino) {
     const tmpl = `
-    <div class="dinosaurs__item">
-            <div class="dinosaurs__item-img" src="${dino.id}"><img
-                    src="${dino.img}">
-            </div>
-            <div class="dinosaurs__item-info"><span class="dinosaurs__item-title">Name: ${dino.nickname}</span> <br>Breed:
-            ${dino.name}</div>
+    <div class="dinosaurs__item" id="container">
+        <div role="img" class="dinosaurs__item-img" id="${dino.id}" aria-label="Image of ${dino.nickname}" aria-describedby='dino-img'>
+            <img id="dino-img" src="${dino.img}" alt="${dino.nickname} posing for camera">
+        </div>
+        <div class="dinosaurs__item-info">
+            <span role="presentation" class="strong">Name: </span>${dino.nickname} <br>
+            <span role="presentation" class="strong">Breed: </span> Breed: ${dino.name}<br>     
+            <span role="presentation" class="strong">Length:</span>  ${dino.size} meters <br>
+            <span role="presentation" class="strong">Favourite Foor: </span> ${dino.favouriteFood} <br>
+            <span role="presentation" class="strong">Period: </span>  ${dino.period}
+  
+            <h4>★ Habits</h4>
+            <ul role="list">
+                <li role="listitem"> <span role="presentation" class="strong">Likes:</span>  ${dino.habits.likes.map((i) => `${i}`)}</li>
+                <li role="listitem"> <span role="presentation" class="strong">Dislikes:</span> ${dino.habits.dislikes.map((i) => `${i}`)}</li>
+                ${dino.characteristic.map(i => `<li role="listitem">${dinoFact(i)} </li>`)}<br>
+            </ul>          
+            
+
+        </div>
+
         </div>
     `;
     const range = document.createRange();
     const fragment = range.createContextualFragment(tmpl);
     return fragment;
 }
+
+
 
 getDino();

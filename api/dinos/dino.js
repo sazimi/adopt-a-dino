@@ -277,7 +277,7 @@ const dinos = [
       img: "https://lh3.googleusercontent.com/gDkGPiMf49g87h-HWwVTFwh_gtIrQhncbE7149xBsitZmuyJGRzDxYreCH1Hxz61kCai0GV9XPS_Oz3zsbF3gb3yzFAFRXnA8tFiecAS7OAnMQakY10l1CKRJCGg-ZaVWFwnsrtfjYBE2dFzqYngeUHa1Ro6nwOEZj-ShGkEjmyP3Ag6JFGxRmQBTWis6ALNwfje5mGbsYDwgwapqXrtuYC5xhT-jbKQ-s-QkV37nn3o3osTiqBHyn58uFHQmAsvScYg6f6bvxMWwtX0jCZErhk2eMIlAGsoTU9hUMkUNWNnNNG39KYMZKQ3yYMjdyhfLDnGq82wFuz4LYyO5cgbi1q0z78WIOfGOFjw-TegzxEoJ6pVBxpbSaJsUIpWDlFISr1HZNTvcHKy_rTHNDkDvx10cqC26ojeeRa6dTCBBCKgtP8qIacAxUYwN1z4zJSA8B7WrAyuPblViON-b4XmU3RKbeSfuc2aKlN1Q67Xqf0qgNZ459s8mBqdJo9bFSz55DqOlxNkoMA-gNtNAr1hYixcvMmuBWaqek6u9pEoy08Ew42ZR7zDcyCVkj3nKEjFOKJIf8K2M5LZcyU1_7Ke5FNh4CerFaE_YhILNCe-HxUj0HdD7InMb8mbYE4AES1UDsYcZnLlUBR9khiaXhhhdjVAxtiiWx0Joy3zbkSHoI7Uhfp2bXY-Gs3-ww=w1500-h1120-no",
       habits: {
         likes: ['Hug', 'Palm leaves', 'Dance', 'Water'],
-        dislikes: ['Bananas', 'Hug', 'Calamari', 'Wooden Bed']
+        dislikes: ['Hug', 'Calamari', 'Wooden Bed']
       },
       characteristic: [
         {
@@ -320,7 +320,7 @@ const dinos = [
       info: "Ouranosaurus was an iguanodont dinosaur in Africa. It had a large sail on its back supported by long, wide neural spines and an elnogated, flat skull.",
       img: "https://lh3.googleusercontent.com/pMNqPUQ_hGmBb1kprXF08TgFVP-4n0bntnr8Uocopk4n-vUAMY1mpnJKG5Rp0PQxayZDeloF-nIzNOIZOEvBZy7vayweop6hiyM-pm68ZWe5rsa7EB4Qi-Xr38k9r-z3H0ywzghWOrllkZczqdYK4siGBUX-gB1ZwdvAE-5C5Ak_Zes84_ICdPIxBwU-w2EyFOudw7WmX8wmsVByuce9rlcXDersc55CRNRByvl82LXaoJ5Z3Nc50qctI0yoh0o7UzkiYjSTT3uOoEbpuYeIn7xKMrfs3aPbt_vTGD_irSWajnSpjpTNgnGBzGpSv5tpTNdGKVZm6rgV4QkVX7vJkd1IrV0J9_aWZJ_SR5k57Q9RX3Bz8uMqp7685daf829cNnZ1nbtFf1C54qDFiSvVKt0q5lvTT2c_2wD3tvzjtyD81cLJi7EMPbB_f5hMz4xfnBwDN060iozHbLSYweqMsyNQ6ga88CdlRkHUdGM5vu4GBUeZfgTLqrydE6mjTYNTMn4ZK325BSQUxw4fzD33BTjBTTFSVKPFz3YzajiOrmLhii5fUi_bVULGTOYbTJCPD6VYjesozwicbeYXV7NKsqzgweNCAJi9vFs-W_b2ZlGGlJeG7E0U0pRB2Lu0nui-JkY-5JG5PuiSlYhUgNdydyGDQhgpOyUvS1Js2w377DWmRbWyteutQapxmw=w1000-h611-no",
       habits: {
-        likes: ['Wooden Bed', 'Hug', 'Dance', 'Another Dino', 'Green Leaves'],
+        likes: ['Wooden Bed', 'Dance', 'Another Dino'],
         dislikes: ['Wooden Bed', 'Premium Bed', 'Straw Bed']
       },
       characteristic: [
@@ -408,7 +408,7 @@ const dinos = [
       info: "Vulcanodon was a primitive sauropod that lived in southern Africa.",
       img: "https://lh3.googleusercontent.com/y5eBdQDqGUhzpl2MXiKXple8C-7dqTu74oDJbGpDq4BUmUlHmEduEu2lNws_BoLFqDqxqg6ByKiBcYUsDAKhf6eQkxmj-KVUVUjKN5zp_U5Xv4CzDxMJSvCX_YW9k-BvzDay0WVIovj28AIL4AKG2iIJlOu3s1P3DUD8zCm2Sl6B0ZEdvYgoKO2I-Kv9kZFi2fIaJNTqjhqekdUIRghl5Eru6gENtqEdbzwQfdmcYokLP6wF26M_1irZnA3QRUBc23X0y9fWyeiRhlGrSTk8V3Mq7Mi6jGrBKh7H9PgEAonWOLI5H7ka8wWEe4o9iMZMo64vdK3Q4DwVRLQrwtwyeT7u3EHNrieO9HrLD0MbEE0PJzYVS2KGieZKxSNboxgWszSj7dpezkG578uyq2hGzM4qTKKGOHQ2KXluIqioeBp3kRxtWM3Qj1qU9IbOzrj_uZOZpDYpa1panYpKW8GhR2k-iurO0FoLbUBsmy7iOHRcNcW8SV43bQGAB2OwVKH4xeohOje3UIYGTt3nxAQ75PXrqbgCjre50sLJguTcfIfccHEv-_R2Tkh5oTsGMv9QSK5rgOf8uSglCRUod-gWwZIO9oUmX0B2OS1PbkUzF4KBmUPCUIH1Op7LdiCTRS73DXnYwwK5jF07fZJCSCupYi_KmYH-zhgL4oTPbjB34blDrx7NAbyBhYDczQ=w600-h224-no",
       habits: {
-        dislikes: ['Water', 'Dance', 'Green Leaves', 'Bananas'],
+        dislikes: ['Dance', 'Bananas'],
         likes: ['Another Dino', 'Hug', 'Water']
       },
       characteristic: [

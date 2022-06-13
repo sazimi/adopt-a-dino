@@ -1,10 +1,54 @@
-#wrapperHeader {
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font: 300 15px/1.4 Helvetica, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    color: #004341;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+
+h1 {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+h2 {
+    font-size: 16px;
+    color: #fff;
+}
+
+h3 {
+    font-size: 14px;
+    color: #fff;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 7px 0 0 0;
+}
+
+ #wrapperHeader {
     width: 100%;
     height: auto;
     /* height of the background image? */
-    background: url('https://images.unsplash.com/photo-1519568262558-dc4b87dd85ca?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6fc918912c2706c79188bd73cbcdd12b&auto=format&fit=crop&w=2851&q=80') repeat-x center center fixed;
+    /* background: url('https://images.unsplash.com/photo-1519568262558-dc4b87dd85ca?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6fc918912c2706c79188bd73cbcdd12b&auto=format&fit=crop&w=2851&q=80') repeat-x center center fixed; */
+    background: url('https://images.unsplash.com/photo-1560851691-ebb64b584d3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2099&q=80');
     display: flex;
-}
+ } 
 
 .header {
     display: flex;
@@ -12,16 +56,16 @@
     height: 200px;
     justify-content: space-around;
     vertical-align: middle;
-    color: #004341;
+    /* background-color: black; */
 
-    @media (max-width: 700px) {
+    /* @media (max-width: 700px) {
         justify-content: center;
         flex-direction: column;
         margin: auto;
-    }
+    } */
 }
 
-h2 {
+h1 {
     line-height: 112px;
     cursor: pointer;
 
@@ -31,14 +75,6 @@ h2 {
     }
 }
 
-h3 {
-    color: rgb(201, 60, 77);
-
-    @media (max-width: 700px) {
-        margin-top: 0;
-        text-align: center;
-    }
-}
 
 .dinosaurs {
     display: flex;
@@ -51,7 +87,7 @@ h3 {
 
 .dinosaurs__item {
     width: 400px;
-    height: 250px;
+    height: 675px;
     border: solid 1px #004341;
     border-radius: 5px;
     justify-content: center;
@@ -74,7 +110,7 @@ h3 {
     padding: 30px;
     background-color: #004341;
     max-width: 100%;
-    width: 350px;
+    width: 400px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     z-index: 2;
@@ -82,5 +118,9 @@ h3 {
 }
 
 .dinosaurs__item .dinosaurs__item-info .dinosaurs__item-title {
+    font-weight: 600;
+}
+
+.strong {
     font-weight: 800;
 }
