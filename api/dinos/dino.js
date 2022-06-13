@@ -100,7 +100,7 @@ const dinos = [
       info: "Dracorex hogwartsia was a pachycephalosaur that did not have a domed head. Instead, its skull was adorned with spikes and frills reminiscent of a dragon. A skull was discovered in the Hell Creek Formation in South Dakota and donated to the Children's Museum of Indianapolis in 2004. Its name was inspired by J.K. Rowling's Harry Potter series and the young visitors to the children's museum.",
       img: "https://lh3.googleusercontent.com/vMkqk5Fl2hZwePtNzK0MuGmUDfc2pX9erzQPxKpRvggLRWGliipzhi2s5VdbO_JCF6zNDs49moOXUrBI2aqkbDrtFwy0-hB2cdb9Vb5IXrqZkoTxJxOkmCvpxI5fbgQkxKghDFEGF50f9TsdC31iG7eltJ1qJvDf8RfneJ7eQDjL2xNAMvY54vPUT1l7X67pGtCysO4ryNhaMY72XfYw2qGnbmaR0Y2b6s5A4ktCrtSspXlteuzaayzXmqJ3vTcZrAd3RN_kV2LzbdGdEX8aidOKt-oHAE4XNoPfczXVxvZTpvXHjtl3iu70wbhdxHIbE51hKSfQAbUBWo0q1Z_xW4eh4d2lFtAICVZU3HxaHHX6t91BpfJCtZ72alLJjFWh6Fft3cZOwyX9szoI9CbMuBaxIbODKrGsjV_faCDDBplRvHTgYaKX_qYrUVWoEedlE8Nr5MRXP_sCuZry1s0jiVG0bulCO0Lgf2vl428Mi9gT5HVmYvJsGNvlM_zMzy1UPcnbGOrhbpL6Hi6fBApsd_9mqcmwLdy1MhR2rZ5Eulx21Rnu_QTt_fRAqhUk601tLGtyApftDuX4myKuppnDS7e8cbRfU2rOR9I9kvcJymmfnzRQDMCKrK6eylmuXPu-Ow7IswLqm9Fzo2LoouiBtxTd9nJ0phc48KfF4qYy8qkJ0N24GeJpEvwRFg=w800-h596-no",
       habits: {
-        likes: ['Hug', 'Another Dino', 'Wooden Bed', 'Green Leaves'],
+        likes: ['Hug', 'Another Dino', 'Wooden Bed'],
         dislikes: ['Premium Bed', 'Hug', 'Palm leaves', 'Walk']
       },
       characteristic: [
