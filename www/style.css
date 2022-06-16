@@ -11,7 +11,6 @@ body {
     margin: 0;
     padding: 0;
     -webkit-font-smoothing: antialiased;
-    color: #004341;
 }
 
 img {
@@ -21,24 +20,31 @@ img {
 
 h1 {
     font-size: 40px;
-    color: #fff;
+    color: #086462;
     text-align: center;
+    line-height: 112px;
+    cursor: pointer;
+    @media (max-width: 700px) {
+        text-align: center;
+
+    }
 }
 
 h2 {
     font-size: 16px;
-    color: #fff;
+    color: #086462;
 }
 
 h3 {
     font-size: 14px;
-    color: #fff;
+    color: #086462;
 }
 
 h4 {
     font-size: 16px;
     font-weight: 700;
     margin: 7px 0 0 0;
+    color: #086462;
 }
 
  #wrapperHeader {
@@ -55,26 +61,7 @@ h4 {
     height: 200px;
     justify-content: space-around;
     vertical-align: middle;
-    /* background-color: black; */
-
-    /* @media (max-width: 700px) {
-        justify-content: center;
-        flex-direction: column;
-        margin: auto;
-    } */
 }
-
-h1 {
-    line-height: 112px;
-    cursor: pointer;
-    /* color: #5d8686; */
-    color: #fff;
-    @media (max-width: 700px) {
-        text-align: center;
-
-    }
-}
-
 
 .dinosaurs {
     display: flex;

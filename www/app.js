@@ -16,28 +16,28 @@ async function getDino() {
 
 function dinoFact(item) {
     const val = item.value ? '✅' : '❌';
-    const key = '<span role="presentation">'+ item.label +'</span>';
+    const key = '<span>'+ item.label +'</span>';
     return [val, key].join(" ");
 }
 
 function generateDino(dino) {
     const tmpl = `
-    <div class="dinosaurs__item" id="container" role="presentation">
-        <div role="presentation" class="dinosaurs__item-${dino.id}" id="${dino.id}" aria-label="Image of ${dino.nickname}">
-            <img role="img" id="dino-img-${dino.id}" src="${dino.img}" alt="Image of ${dino.nickname}" title="Image of ${dino.nickname}">
+    <div class="dinosaurs__item" id="container">
+        <div class="dinosaurs__item-${dino.id}" id="${dino.id}">
+            <img role="img" id="dino-img-${dino.id}" src="${dino.img}">
         </div>
         <div class="dinosaurs__item-info">
-            <span role="presentation" class="strong">Name: </span>${dino.nickname} <br>
-            <span role="presentation" class="strong">Breed: </span> Breed: ${dino.name}<br>     
-            <span role="presentation" class="strong">Length:</span>  ${dino.size} meters <br>
-            <span role="presentation" class="strong">Favourite Foor: </span> ${dino.favouriteFood} <br>
-            <span role="presentation" class="strong">Period: </span>  ${dino.period}
+            <span class="strong">Name: </span>${dino.nickname} <br>
+            <span class="strong">Breed: </span> Breed: ${dino.name}<br>     
+            <span class="strong">Length:</span>  ${dino.size} meters <br>
+            <span class="strong">Favourite Foor: </span> ${dino.favouriteFood} <br>
+            <span class="strong">Period: </span>  ${dino.period}
   
             <h4>★ Habits</h4>
-            <ul role="list">
-                <li role="listitem"> <span role="presentation" class="strong">Likes:</span>  ${dino.habits.likes.map((i) => `${i}`)}</li>
-                <li role="listitem"> <span role="presentation" class="strong">Dislikes:</span> ${dino.habits.dislikes.map((i) => `${i}`)}</li>
-                ${dino.characteristic.map(i => `<li role="listitem">${dinoFact(i)} </li>`).join("")}
+            <ul>
+                <li> <span class="strong">Likes:</span>  ${dino.habits.likes.map((i) => `${i}`)}</li>
+                <li> <span class="strong">Dislikes:</span> ${dino.habits.dislikes.map((i) => `${i}`)}</li>
+                ${dino.characteristic.map(i => `<li>${dinoFact(i)} </li>`).join("")}
             </ul>          
             
 
