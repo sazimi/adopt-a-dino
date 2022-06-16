@@ -24,7 +24,7 @@ function generateDino(dino) {
     const tmpl = `
     <div class="dinosaurs__item" id="container">
         <div class="dinosaurs__item-${dino.id}" id="${dino.id}">
-            <img role="img" id="dino-img-${dino.id}" src="${dino.img}">
+            <img role="img" id="dino-img-${dino.id}" src="${dino.img}" alt="${dino.nickname} posing for camera">
         </div>
         <div class="dinosaurs__item-info">
             <span class="strong">Name: </span>${dino.nickname} <br>
@@ -34,10 +34,10 @@ function generateDino(dino) {
             <span class="strong">Period: </span>  ${dino.period}
   
             <h4>★ Habits</h4>
-            <ul>
-                <li> <span class="strong">Likes:</span>  ${dino.habits.likes.map((i) => `${i}`)}</li>
-                <li> <span class="strong">Dislikes:</span> ${dino.habits.dislikes.map((i) => `${i}`)}</li>
-                ${dino.characteristic.map(i => `<li>${dinoFact(i)} </li>`).join("")}
+            <ul role="list">
+                <li role="listitem"> <span class="strong">Likes:</span>  ${dino.habits.likes.map((i) => `${i}`)}</li>
+                <li role="listitem"> <span class="strong">Dislikes:</span> ${dino.habits.dislikes.map((i) => `${i}`)}</li>
+                ${dino.characteristic.map(i => `<li role="listitem">${dinoFact(i)} </li>`).join("")}
             </ul>          
             
 

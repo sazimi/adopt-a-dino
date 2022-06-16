@@ -20,7 +20,7 @@ img {
 
 h1 {
     font-size: 40px;
-    color: #086462;
+    color: #fff;
     text-align: center;
     line-height: 112px;
     cursor: pointer;
@@ -32,19 +32,19 @@ h1 {
 
 h2 {
     font-size: 16px;
-    color: #086462;
+    color: #fff;
 }
 
 h3 {
     font-size: 14px;
-    color: #086462;
+    color: #fff;
 }
 
 h4 {
     font-size: 16px;
     font-weight: 700;
     margin: 7px 0 0 0;
-    color: #086462;
+    color: #fff;
 }
 
  #wrapperHeader {
